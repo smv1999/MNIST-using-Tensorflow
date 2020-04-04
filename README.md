@@ -7,5 +7,5 @@ With my latest advent into the field of Machine learning and Deep Learning, I tr
 * After that you are good to proceed to see a demo of the application.
 * Run the project using `python mnist.py` and you can see the Data Visualization in the form of graphs and `python test.py` to validate the result against a sample image.
 
-![alt text]()
-![alt text]()
+![alt text](https://raw.githubusercontent.com/smv1999/MNIST-using-Tensorflow/master/graph1.png)
+![alt text](https://raw.githubusercontent.com/smv1999/MNIST-using-Tensorflow/master/graph2.png)
