@@ -1,0 +1,6 @@
+numpy
+matplotlib
+sklearn
+keras
+tensorflow
+pillow

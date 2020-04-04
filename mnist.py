@@ -72,18 +72,17 @@ def summarize_performance(scores):
 
 def run_test_harness():
 	# load dataset
-        trainX, trainY, testX, testY = load_dataset()
-        # prepare pixel data
-        trainX, testX = prep_pixels(trainX, testX)
-        model = define_model()
-        model.fit(trainX, trainY, epochs=10, batch_size=32, verbose=0)
-        model.save('final_model.h5')
+	trainX, trainY, testX, testY = load_dataset()
+			# prepare pixel data
+	trainX, testX = prep_pixels(trainX, testX)
+	model = define_model()
+	model.fit(trainX, trainY, epochs=10, batch_size=32, verbose=0)
+	model.save('final_model.h5')
 
-	# scores, histories = evaluate_model(trainX, trainY)
+	scores, histories = evaluate_model(trainX, trainY)
 
-	# summarize_diagnostics(histories)
-	# summarize estimated performance
-	# summarize_performance(scores)
-    
+	summarize_diagnostics(histories)
+	summarize_performance(scores)
+		
  
 run_test_harness()
