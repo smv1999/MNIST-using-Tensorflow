@@ -1,4 +1,4 @@
-# Working with MNIST Data Set Using Convolutional Neural Networks
+# Working with MNIST Dataset Using Convolutional Neural Networks
 
 With my latest advent into the field of Machine learning and Deep Learning, I tried my hands on the MNIST dataset and gained knowledge about Convolutional Neural Networks.
 ## Getting Started
